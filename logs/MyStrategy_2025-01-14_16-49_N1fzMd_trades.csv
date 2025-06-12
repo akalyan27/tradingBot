@@ -1,0 +1,7 @@
+time,strategy,identifier,symbol,side,type,status,multiplier,time_in_force,asset.strike,asset.multiplier,asset.asset_type,price,filled_quantity,trade_cost
+2024-12-30 09:30:00-05:00,MyStrategy,d0cf7ca91ef646f4abd5c0271ad6898f,SPY,sell,market,new,1,gtc,0.0,1,stock,,,
+2024-12-30 09:30:00-05:00,MyStrategy,d0cf7ca91ef646f4abd5c0271ad6898f,SPY,sell,market,fill,1,gtc,0.0,1,stock,587.8900146484375,85.0,0.0
+2024-12-31 09:30:00-05:00,MyStrategy,f2052782d40d4d1599db3afd69a60187,SPY,sell,market,new,1,gtc,0.0,1,stock,,,
+2024-12-31 09:30:00-05:00,MyStrategy,f2052782d40d4d1599db3afd69a60187,SPY,sell,market,fill,1,gtc,0.0,1,stock,589.9099731445312,127.0,0.0
+2025-01-03 09:30:00-05:00,MyStrategy,543dd92160d04499bed37c3d10fa4bc1,SPY,sell,market,new,1,gtc,0.0,1,stock,,,
+2025-01-03 09:30:00-05:00,MyStrategy,543dd92160d04499bed37c3d10fa4bc1,SPY,sell,market,fill,1,gtc,0.0,1,stock,587.530029296875,191.0,0.0
