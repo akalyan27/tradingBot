@@ -8,10 +8,13 @@ from alpaca_trade_api import REST
 from timedelta import Timedelta 
 from sentiment_analysis import estimate_sentiment
 from lumibot.entities import Asset
+import os 
+from dotenv import load_dotenv
 
-API_KEY = "PKFYP978QVCAFL61QZHI" 
-API_SECRET = "3VrzeTfepwllnrjwxbQe1CalWbcUJ4jPRVLOuBDN" 
-BASE_URL = "https://paper-api.alpaca.markets"
+load_dotenv()
+API_KEY = os.getenv("ALPACA_API_KEY")
+API_SECRET = os.getenv("ALPACA_API_SECRET")
+BASE_URL = os.getenv("ALPACA_BASE_URL", "https://paper-api.alpaca.markets")
 
 ALPACA_CREDS = {
     "API_KEY":API_KEY, 
